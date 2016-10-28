@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Singleton", "04-Singleto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-ThreadLock", "05-ThreadLock\05-ThreadLock.csproj", "{530500F3-6D10-4A2E-8BFC-50C48098E169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-WinForm.Currency", "06-WinForm.Currency\06-WinForm.Currency.csproj", "{F5837B55-AD2D-4C39-9F4A-51CDCBFFB624}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5837B55-AD2D-4C39-9F4A-51CDCBFFB624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5837B55-AD2D-4C39-9F4A-51CDCBFFB624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5837B55-AD2D-4C39-9F4A-51CDCBFFB624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5837B55-AD2D-4C39-9F4A-51CDCBFFB624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
