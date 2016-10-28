@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-ThreadSuspend", "03-Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Singleton", "04-Singleton\04-Singleton.csproj", "{E16E24D9-CB6B-4C77-AD52-02ADC44BC21D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-ThreadLock", "05-ThreadLock\05-ThreadLock.csproj", "{530500F3-6D10-4A2E-8BFC-50C48098E169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E16E24D9-CB6B-4C77-AD52-02ADC44BC21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16E24D9-CB6B-4C77-AD52-02ADC44BC21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16E24D9-CB6B-4C77-AD52-02ADC44BC21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530500F3-6D10-4A2E-8BFC-50C48098E169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
