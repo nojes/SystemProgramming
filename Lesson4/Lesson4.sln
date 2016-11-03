@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Counter", "01-Counter\01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Mutex", "02-Mutex\02-Mutex.csproj", "{2B3EF2D5-0050-4BF4-A2A0-B9624C395636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-MutexOneProcess", "03-MutexOneProcess\03-MutexOneProcess.csproj", "{AAF8205D-49C5-49FE-A5EB-77FE300DE2EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2B3EF2D5-0050-4BF4-A2A0-B9624C395636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B3EF2D5-0050-4BF4-A2A0-B9624C395636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B3EF2D5-0050-4BF4-A2A0-B9624C395636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF8205D-49C5-49FE-A5EB-77FE300DE2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF8205D-49C5-49FE-A5EB-77FE300DE2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF8205D-49C5-49FE-A5EB-77FE300DE2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF8205D-49C5-49FE-A5EB-77FE300DE2EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
