@@ -15,7 +15,10 @@ namespace _01_Counter
             Counter c = new Counter();
 
             Console.Write("Max counter value -> ");
-            c.MaxCount = Convert.ToInt32(Console.ReadLine());
+            int maxCount = Convert.ToInt32(Console.ReadLine());
+            if (maxCount != 0) {
+                c.MaxCount = maxCount;
+            }
 
             Console.Write("Threads count -> ");
             threadsCount = Convert.ToInt32(Console.ReadLine());

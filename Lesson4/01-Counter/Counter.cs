@@ -1,10 +1,13 @@
-﻿namespace _01_Counter
+﻿using System.Threading;
+
+namespace _01_Counter
 {
     public class Counter
     {
         private int count;
         private int maxCount;
-        private object lockObj = new object();
+
+        private Mutex mutex;
 
         public int Count => count;
 
@@ -16,6 +19,7 @@
         public Counter()
         {
             maxCount = 1000000;
+            mutex = new Mutex(false, "SYNC_MUTEX");
         }
 
         public Counter(int maxCount)
@@ -26,9 +30,9 @@
         public void UpdateFields()
         {
             for (int i = 0; i < maxCount; i++) {
-                lock(lockObj) {
-                    ++count;
-                }
+                mutex.WaitOne();
+                ++count;
+                mutex.ReleaseMutex();
             }
         }
 
