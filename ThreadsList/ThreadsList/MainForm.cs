@@ -13,16 +13,16 @@ namespace ThreadsList
 {
     public partial class MainForm : Form
     {
-        private List<Thread> threads;
-        private Semaphore semaphore;
-        private string semaphoreName = $"SEMAPHORE_{Guid.NewGuid()}";
+        public List<Thread> Threads;
+        public Semaphore Semaphore;
+        private readonly string _semaphoreName = $"SEMAPHORE_{Guid.NewGuid()}";
 
         public MainForm()
         {
             InitializeComponent();
 
-            threads = new List<Thread>();
-            semaphore = new Semaphore((int)numSlotCount.Value, (int)numSlotCount.Value, semaphoreName);
+            Threads = new List<Thread>();
+            Semaphore = new Semaphore((int)numSlotCount.Value, (int)numSlotCount.Value, _semaphoreName);
 
             // TODO: ...
         }
