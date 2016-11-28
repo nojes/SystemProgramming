@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Task", "01-Task\01-Task.csproj", "{47512512-65A3-4606-BF60-61EBCBA661B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AsyncAwait.WinForm", "02-AsyncAwait.WinForm\02-AsyncAwait.WinForm.csproj", "{C092D042-8AFB-441F-9DC8-A9FB116C62A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-AsyncAwait.Calculator", "03-AsyncAwait.Calculator\03-AsyncAwait.Calculator.csproj", "{0D2FDD89-29ED-420C-9D20-9FBD504EAD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47512512-65A3-4606-BF60-61EBCBA661B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47512512-65A3-4606-BF60-61EBCBA661B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47512512-65A3-4606-BF60-61EBCBA661B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47512512-65A3-4606-BF60-61EBCBA661B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C092D042-8AFB-441F-9DC8-A9FB116C62A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C092D042-8AFB-441F-9DC8-A9FB116C62A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C092D042-8AFB-441F-9DC8-A9FB116C62A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C092D042-8AFB-441F-9DC8-A9FB116C62A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2FDD89-29ED-420C-9D20-9FBD504EAD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2FDD89-29ED-420C-9D20-9FBD504EAD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2FDD89-29ED-420C-9D20-9FBD504EAD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2FDD89-29ED-420C-9D20-9FBD504EAD64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
