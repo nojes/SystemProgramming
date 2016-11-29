@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-WebClient.WinForms", "01-WebClient.WinForms\01-WebClient.WinForms.csproj", "{6D043D32-48B3-47BB-A45F-965F399D6326}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AsyncShop.WinForms", "02-AsyncShop.WinForms\02-AsyncShop.WinForms.csproj", "{2F85CA44-F737-4406-93B1-894018EB4312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-AsyncEmployee", "03-AsyncEmployee\03-AsyncEmployee.csproj", "{B9609D4E-BA2C-4DBE-9909-A58BD9486971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6D043D32-48B3-47BB-A45F-965F399D6326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D043D32-48B3-47BB-A45F-965F399D6326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D043D32-48B3-47BB-A45F-965F399D6326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F85CA44-F737-4406-93B1-894018EB4312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F85CA44-F737-4406-93B1-894018EB4312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F85CA44-F737-4406-93B1-894018EB4312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F85CA44-F737-4406-93B1-894018EB4312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9609D4E-BA2C-4DBE-9909-A58BD9486971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9609D4E-BA2C-4DBE-9909-A58BD9486971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9609D4E-BA2C-4DBE-9909-A58BD9486971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9609D4E-BA2C-4DBE-9909-A58BD9486971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
