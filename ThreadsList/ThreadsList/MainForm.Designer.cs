@@ -116,6 +116,7 @@
             this.btnCreate.TabIndex = 1;
             this.btnCreate.Text = "CREATE";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // numSlotCount
             // 

@@ -17,12 +17,18 @@ namespace ThreadsList
         public Semaphore Semaphore;
         private readonly string _semaphoreName = $"SEMAPHORE_{Guid.NewGuid()}";
 
+        private ThreadTask ThreadTask;
+
         public MainForm()
         {
             InitializeComponent();
 
-            Threads = new List<Thread>();
+            numSlotCount.Value = 2;
+
+//            Threads = new List<Thread>();
             Semaphore = new Semaphore((int)numSlotCount.Value, (int)numSlotCount.Value, _semaphoreName);
+
+            ThreadTask = new ThreadTask(Semaphore, 1);
 
             // TODO: ...
         }
@@ -30,6 +36,11 @@ namespace ThreadsList
         private void MainForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            ThreadTask.Run();
         }
     }
 }
